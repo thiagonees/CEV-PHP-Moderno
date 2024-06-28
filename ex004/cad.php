@@ -14,9 +14,7 @@
     <?php 
       $nome = $_GET["nome"] ?? "Nome não enviado!";
       $sobrenome = $_GET["sobrenome"] ?? "Sobrenome não enviado!";
-
       echo "<p>É um prazer te conhecer, <strong> $nome $sobrenome</strong></>";
-
     ?>
     <p><a href="javascript:history.go(-1)">Voltar</a></p>
   </main>
